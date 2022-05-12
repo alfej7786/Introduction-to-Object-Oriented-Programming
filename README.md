@@ -1,2 +1,5 @@
 # OOP244NFF-WORKSHOPS
-Section NFF
+Name: Alfej Savaya
+ID: 118823210
+Email: aasavaya@myseneca.ca
+Section: NFF
