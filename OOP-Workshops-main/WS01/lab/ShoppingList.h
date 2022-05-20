@@ -15,13 +15,25 @@ piece of work is entirely of my own creation.
 *****************************************************************************
 */
 
-// Workshop 1:
-// Version: 1.0
-//   fixed bug for deleting the first item. 
-//   this fix will not effect submission results
-// Date: 2021/10/16
-// Author: Fardad Soleimanloo
-// Description:
-// w1p1.cpp
-//
-///////////////////////////////////////////////////
+#ifndef SDDS_SHOPPINGLIST_H 
+#define SDDS_SHOPPINGLIST_H
+#include "File.h"
+#include "Utils.h"
+
+namespace sdds{
+
+
+bool loadList();
+void displayList();
+void removeBoughtItems();
+void removeItem(int index);
+bool saveList();
+void clearList();
+void toggleBought();
+void addItemToList();
+void removeItemfromList();
+bool listIsEmpty();
+
+
+}
+#endif

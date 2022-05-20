@@ -15,13 +15,24 @@ piece of work is entirely of my own creation.
 *****************************************************************************
 */
 
-// Workshop 1:
-// Version: 1.0
-//   fixed bug for deleting the first item. 
-//   this fix will not effect submission results
-// Date: 2021/10/16
-// Author: Fardad Soleimanloo
-// Description:
-// w1p1.cpp
-//
-///////////////////////////////////////////////////
+#ifndef SDDS_SHOPPINGREC_H 
+#define SDDS_SHOPPINGREC_H
+
+namespace sdds{
+const int MAX_TITLE_LENGTH = 50;
+const int MAX_QUANTITY_VALUE = 50;
+
+struct ShoppingRec {
+   char m_title[MAX_TITLE_LENGTH + 1];
+   int m_quantity;
+   bool m_bought;
+};
+
+void displayShoppingRec(const ShoppingRec* shp);
+void toggleBoughtFlag(ShoppingRec* rec);
+bool isShoppingRecEmpty(const ShoppingRec* shp);
+ShoppingRec getShoppingRec();
+}
+
+
+#endif

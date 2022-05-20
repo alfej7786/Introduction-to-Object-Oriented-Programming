@@ -15,13 +15,15 @@ piece of work is entirely of my own creation.
 *****************************************************************************
 */
 
-// Workshop 1:
-// Version: 1.0
-//   fixed bug for deleting the first item. 
-//   this fix will not effect submission results
-// Date: 2021/10/16
-// Author: Fardad Soleimanloo
-// Description:
-// w1p1.cpp
-//
-///////////////////////////////////////////////////
+#ifndef SDDS_FILE_H
+#define SDDS_FILE_H
+#include "ShoppingRec.h"
+
+namespace sdds {
+bool openFileForRead();
+bool openFileForOverwrite();
+void closeFile();
+bool freadShoppingRec(ShoppingRec* rec);
+void fwriteShoppintRec(const ShoppingRec* rec);
+}
+#endif

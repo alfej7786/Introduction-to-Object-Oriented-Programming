@@ -15,13 +15,14 @@ piece of work is entirely of my own creation.
 *****************************************************************************
 */
 
-// Workshop 1:
-// Version: 1.0
-//   fixed bug for deleting the first item. 
-//   this fix will not effect submission results
-// Date: 2021/10/16
-// Author: Fardad Soleimanloo
-// Description:
-// w1p1.cpp
-//
-///////////////////////////////////////////////////
+#ifndef SDDS_UTILS_H 
+#define SDDS_UTILS_H
+
+namespace sdds{
+void flushkeys();
+bool ValidYesResponse(char ch);
+bool yes();
+void readCstr(char cstr[], int len);
+int readInt(int min, int max);
+}
+#endif
