@@ -1,0 +1,35 @@
+*****************************************************************************
+                              Reflection
+                             Workshop - #3
+Full Name  : Alfej Savaya
+Student ID#: 118823210
+Email      : aasavaya@myseneca.ca
+Section    : NFF
+Date	   : 06-Jun-2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+ANSWERS:
+To be honest I found this Workshop relatively more straightforward than the previous two workshops. Particularly Part 1 of this Workshop was just a cakewalk, I managed to complete my first part just in about 30-50 minutes. Although Part 2 wasn’t as easy as Part 1. Part 2 was confusing, some of the functions were complicating, and took almost an hour to understand them because in this workshop they didn’t provide more explanation about each function. There was a function that made me struggle a lot, function draw() from BarChart.cpp module is the one that made me use Google to come up with a solution.  The definition of that function is shared below for better clarification. Actually, I had issues with ‘setw’, just realized after got the explanation from the internet.
+
+// Function draw
+void BarChart::draw() const  {
+    if (isValid())
+    {   // print Valid
+        cout << m_chartTitle << endl;
+        cout << setw(71)<<setfill('-') <<"-"<< endl; // Print '-'
+        for (int i = 0; i < m_noOfBars; i++)
+        {
+            m_bars[i].draw();
+        }
+        cout << setw(71) << setfill('-') <<"-"<< endl;
+    }
+    else
+    {   // print Invalid
+        cout << "Invalid Chart!" << endl;
+    }
+}

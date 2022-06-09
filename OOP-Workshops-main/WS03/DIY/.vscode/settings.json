@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "xstring": "cpp",
+        "exception": "cpp",
+        "iomanip": "cpp",
+        "istream": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "stdexcept": "cpp",
+        "system_error": "cpp",
+        "typeinfo": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "xlocinfo": "cpp",
+        "xlocmon": "cpp",
+        "xlocnum": "cpp",
+        "xloctime": "cpp",
+        "iostream": "cpp"
+    }
+}

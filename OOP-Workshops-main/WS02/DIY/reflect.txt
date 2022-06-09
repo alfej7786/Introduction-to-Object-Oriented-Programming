@@ -1,0 +1,17 @@
+*****************************************************************************
+                              Reflection
+                             Workshop - #2
+Full Name  : Alfej Savaya
+Student ID#: 118823210
+Email      : aasavaya@myseneca.ca
+Section    : NFF
+Date	   : 30-May-2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+ANSWER:
+In the past week, we covered Types, Overloading, References, and Dynamic Memory. This Workshop has revised us with whatever we learned in the entire week. It was very important to have a Practical experience, only theory can’t help. I had issues with declaring and defining functions accordingly, I also referred to the notes so many times but to be honest kept on trying and don’t know how I ended up getting it right. Then finally after completing my code, I stepped forward to the last step, submitting my work on matrix is the biggest challenge for me. My code was successfully running on VS Code but getting errors on Matrix, which might be due to changes in compilers. There is one thing that bothered me a lot and would appreciate it if the Professor can help me explain that is getting ‘undefined reference to …’  error, this is the reason why I could not submit my first part of this workshop.

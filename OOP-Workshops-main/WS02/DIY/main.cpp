@@ -27,7 +27,6 @@ may 25th   Data file had bad records and are fixed now.
 #include "BirthDate.h"
 using namespace std;
 using namespace sdds;
-
 int main() {
    bool done = false;
    int month = 0;

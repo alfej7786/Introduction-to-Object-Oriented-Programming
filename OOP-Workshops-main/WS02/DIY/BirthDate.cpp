@@ -15,10 +15,13 @@ logic of the functions given in the previous Workshop.
  ------------------------------------------------------*/
 #include <iostream>
 #include "BirthDate.h"
-
+using namespace std;
 
 namespace sdds {
-    
+    PersonDetails* details;
+    PersonDetails* matches;
+	int numOfRecords = 0;
+    int numOfMatch = 0;
     FILE* fptr;
     bool openFile(const char filename[]) {
         fptr = fopen(filename, "r");
@@ -37,7 +40,6 @@ namespace sdds {
     void closeFile() {
         if (fptr) fclose(fptr);
     }
-
     void getAllRecords() {
         int i;
         details = new PersonDetails[numOfRecords];
@@ -79,7 +81,6 @@ namespace sdds {
         }
         cout << endl;
     }
-
     // Opens the datafile. If successful it will print Birthdate search program and returns true otherwise it will print Data file "filename goes here" not found! and return false;
     bool beginSearch(const char* filename) {
         if (openFile(filename))
@@ -139,9 +140,16 @@ namespace sdds {
 
     // Releases all the Dynamically allocated memory ...
     void deallocate() {
+        int i;
+        for (i = 0; i < numOfMatch; i++)
+        {
+        delete[] matches[i].name;
+        matches[i].name = nullptr;
+        }
         delete[] matches;
         numOfMatch = 0;
         matches = nullptr;
+
     }
 
     // Program End ...
