@@ -1,0 +1,15 @@
+*****************************************************************************
+                              Reflection
+                             Workshop - #5
+Full Name  : Alfej Savaya
+Student ID#: 118823210
+Email      : aasavaya@myseneca.ca
+Section    : NFF
+Date	   : 20-Jun-2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted piece of work is entirely of my own creation.
+*****************************************************************************
+ANSWER:
+In this workshop I got a better understanding of what operator overloading is. For the most part they are just fancy functions with a unique way of calling the function. However we can't just overload any operator in any way we want. There are some rules to follow. A unary member operator for example, can only have one operand (function parameter and return types are operands) 2 operands for a binary member operator and 3 operands for a ternary member operator. This concept was originally a bit confusing during the DIY part as I tried to overload operator functions but I after the workshop I got a better understanding of it. We create these special functions with the operator keyword followed by the symbol we are going to use to call the function. Then there are the type conversion/casting operators that are called by putting the object name inside the data type. We also learned to create helper operators in this workshop. The main thing to mention that separates helpers from member operators is that helpers "help" without direct access to the class. It won't have access to private members of the class without other functions to get the members for it.

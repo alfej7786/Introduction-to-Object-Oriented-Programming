@@ -1,0 +1,16 @@
+*****************************************************************************
+                              Reflection
+                             Workshop - #4
+Full Name  : Alfej Savaya
+Student ID#: 118823210
+Email      : aasavaya@myseneca.ca
+Section    : NFF
+Date	   : 13-Jun-2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+ANSWER:
+At the beginning of last week’s lecture, I found this topic quite tough to understand(constructors, destructors, and this). Particularly 'this', I was really confused and lost on that part when I started working in this workshop I managed to understand the entire chapter. In the first part (Lab) we were asked to use 'this' so that we can understand the logic. Both parts were easy to understand and straightforward, so I ended up finishing smoothly without any issues. But only part of part 2 (DIY) consumed a lot of time. My program was running properly but when I tried to submit on matrix I used to get an error saying output not matched. Then later realized it needs to be sorted and as usual sorting functions are so hard to implement for me. Went back to the professor’s previous workshop sorting function, and tried to implement using the same logic and managed. Special thanks to Professor Fardad.
