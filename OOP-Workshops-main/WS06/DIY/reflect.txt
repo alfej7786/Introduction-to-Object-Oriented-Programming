@@ -1,0 +1,16 @@
+*****************************************************************************
+                              Reflection
+                             Workshop - #6
+Full Name  : Alfej Savaya
+Student ID#: 118823210
+Email      : aasavaya@myseneca.ca
+Section    : NFF
+Date	   : 11-July-2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted piece of work is entirely of my own creation.
+*****************************************************************************
+
+After doing the workshop 6 I have learned about copy constructor in which a member function will initialize an object by using another object of the same class and also I have learned and implemented the concept of operator overloading . In my case I used the Basket(Basket &d) and did two kinds of copies  which are shallow copying and deep copying for my values to perform a copy constructor. The other new thing that I learned about was using the ostream as an operator to handle the output stream.
+In the milestone part I have learned to take arguments to copy the class instance and create an overload function to add new items wherever necessary. The milestone was harder and took a lot of time as you need to create option to add the menu using the operator constructor and display it. It took me quite a time to figure out how to perform operator overloading but after seeing couple of YouTube videos and practicing I was able to complete this milestone.

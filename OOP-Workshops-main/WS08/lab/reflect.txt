@@ -1,0 +1,16 @@
+*****************************************************************************
+                              Reflection
+                             Workshop - #8
+Full Name  : Alfej Savaya
+Student ID#: 118823210
+Email      : aasavaya@myseneca.ca
+Section    : NFF
+Date	   : 19-July-2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted piece of work is entirely of my own creation.
+*****************************************************************************
+
+ANSWER:
+After doing this assignment I have learned a lot about the concept of multiple inheritance. The workshop 8 was quite easy but I had some memory leak which gave me a hard time fixing it. In this workshop we had a Account class as a base class and inside the Account class we created the virtual functions and destructors. We need a pure virtual function so the base class cannot be instantiated, and the derived classes are forced to define these functions before they can be instantiated. We created multiple inheritance in this scenario where the Account is the main base class, and its’ child class are SavingsAccount class ChequingAccount class. Inheritance made programming easier as it allows us to create classes that are built upon the existing classes and maintains the same behaviors which allows us to reuse the code from other classes with some limited access. I have been working on milestone 3 and I will hopefully complete it soon.
